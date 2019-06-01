@@ -100,3 +100,13 @@ main h1{
 .project-links a:visited{
     color: #2E2E2E;
 }
+
+/* Resume */
+
+.short-intro, .employment, .education{
+    border-bottom: 1px gray solid;
+}
+
+.strong{
+    font-weight: 800;
+}
