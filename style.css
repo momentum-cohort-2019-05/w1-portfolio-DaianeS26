@@ -55,3 +55,7 @@ img{
 .social-media{
     text-align: center;
 }
+
+.social-media  a:visited{
+    color: black;
+}
