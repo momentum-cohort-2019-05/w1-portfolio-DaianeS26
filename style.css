@@ -1,5 +1,6 @@
 /* Responsive Style */
 
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,8 +14,8 @@ body{
     width: 960px;
     margin: 0 auto;
     max-width: 100%;
+    color: #424242;
 }
-
 
 img{
     max-width: 100%;
@@ -24,6 +25,7 @@ img{
 
 .nav-bar ul li{
     list-style: none;
+    font-size: 0.9rem;
 }
 
 .nav-bar li{
@@ -36,15 +38,24 @@ img{
 }
 
 .nav-bar a:visited{
-    color: black;
+    color: #2E2E2E;
 }
 
 .title, .quick-intro, p{
     margin-bottom: 10px;
 }
 
+.quick-intro{
+    border-bottom: 1px gray solid;
+}
+
+.quick-intro h4{
+    padding-top: -5px;
+}
+
 .social-media ul li{
     list-style: none;
+    font-size: 0.8rem;
 
 }
 
@@ -58,5 +69,34 @@ img{
 }
 
 .social-media  a:visited{
-    color: black;
+    color: #2E2E2E;
+}
+
+/* Projects file */
+
+main h1{
+    margin-bottom: 10px;
+}
+
+.project h2{
+    margin-bottom: 20px;
+}
+
+.project-links ul li{
+    list-style: none;
+    font-size: 0.5rem;
+
+}
+
+.project-links li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.project-links{
+    margin-bottom: 10px;
+}
+
+.project-links a:visited{
+    color: #2E2E2E;
 }
