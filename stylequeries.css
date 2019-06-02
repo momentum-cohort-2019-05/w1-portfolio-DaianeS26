@@ -21,7 +21,6 @@
         flex-grow: 1;
         align-self: flex-end;
         margin-left: 10px;
-        text-align: left;
         
     }
 
@@ -29,13 +28,29 @@
         flex-grow: 2;
     }
     
-    .container h1 {
+    .hide {
         display: none;
     }
+    
+    .image-project{
+       order: 1;
+        
+    }
 
-    /* .left{
-        align-self:;
-    } */
+    .project{
+        order: 0;
+        /* width: 50%; */
+    
+    }
+
+    .project-content{
+        margin-right: 20px;
+    }
+
+    .test{
+        width: 100%;
+    }
+   
 
   }
   
