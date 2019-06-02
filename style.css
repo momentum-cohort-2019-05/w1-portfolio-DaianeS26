@@ -30,7 +30,7 @@ img{
 
 .nav-bar li{
     display: inline;
-    margin-right: 15px;ß
+    margin-right: 15px;
 }
 
 .nav-bar{
@@ -38,7 +38,7 @@ img{
 }
 
 .nav-bar a:visited{
-    color: #2E2E2E;
+    color: black;
 }
 
 .title, .quick-intro, p{
@@ -69,7 +69,7 @@ img{
 }
 
 .social-media  a:visited{
-    color: #2E2E2E;
+    color: black;
 }
 
 /* Projects file */
@@ -98,7 +98,7 @@ main h1{
 }
 
 .project-links a:visited{
-    color: #2E2E2E;
+    color: black;
 }
 
 /* Resume */

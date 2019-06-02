@@ -1,0 +1,41 @@
+
+@media screen and (min-width: 800px) {
+    .container {
+      display: flex;
+    }
+  
+    .image {
+      width: 50%;
+      padding-right: 20px;
+    }
+  
+    .intro {
+      width: 50%;
+    }
+
+    .title{
+        flex-grow: 2;
+    }
+
+    .nav-bar{
+        flex-grow: 1;
+        align-self: flex-end;
+        margin-left: 10px;
+        text-align: left;
+        
+    }
+
+    .empty{
+        flex-grow: 2;
+    }
+    
+    .container h1 {
+        display: none;
+    }
+
+    /* .left{
+        align-self:;
+    } */
+
+  }
+  
