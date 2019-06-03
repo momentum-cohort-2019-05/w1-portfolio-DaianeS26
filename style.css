@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
     width: 960px;
     margin: 0 auto;
@@ -49,8 +49,8 @@ img{
     border-bottom: 1px gray solid;
 }
 
-.quick-intro h4{
-    padding-top: -5px;
+.quick-intro h1{
+    margin-bottom: 5px;
 }
 
 .social-media ul li{
@@ -58,7 +58,9 @@ img{
     font-size: 0.8rem;
 
 }
-
+.quick-intro h3{
+    padding-bottom: 10px;
+}
 .social-media li{
     display: inline;
     margin-right: 15px;
@@ -84,7 +86,7 @@ main h1{
 
 .project-links ul li{
     list-style: none;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 
@@ -107,6 +109,18 @@ main h1{
     border-bottom: 1px gray solid;
 }
 
+.details{
+    margin-bottom: 30px;
+}
+
 .strong{
-    font-weight: 800;
+    font-weight: bold;
+}
+
+.year{
+    font-style: italic;
+}
+
+.sites{
+    margin-bottom: 20px;
 }
