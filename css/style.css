@@ -89,12 +89,21 @@ body{
    
 }
 
+.tab{
+    text-indent: 50px;
+    text-align: justify;
+}
+
 /* Projects file */
 
 .project-page{
     margin: 20px auto;
     text-align: center;
 
+}
+
+.project-content{
+    text-align: justify;
 }
 
 .project-links ul li{
@@ -119,7 +128,9 @@ body{
 .port-img{
     width: 100%;
     border-radius: 50px;
-    border: 1px darkgray solid;
+    -webkit-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
+    -moz-box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
+    box-shadow: 7px 11px 5px 0px rgba(105,103,105,1);
 }
 
 .project, .project-content{
@@ -128,14 +139,31 @@ body{
 
 
 
+
+
 /* Resume */
 
 .short-intro, .employment, .education{
     border-bottom: 1px gray solid;
+    margin-bottom: 20px;
+}
+
+.short-intro, .employment, .education, .skills{
+    margin: 1em 2em;
 }
 
 .details{
     margin-bottom: 30px;
+}
+
+.resume{
+    margin-top: em;
+    background-color: #fff;
+    border: 1px #f7eff7 solid;
+    border-radius: 20px;
+    -webkit-box-shadow: 11px 21px 8px 0px rgba(247,239,247,1);
+    -moz-box-shadow: 11px 21px 8px 0px rgba(247,239,247,1);
+    box-shadow: 11px 21px 8px 0px rgba(247,239,247,1);
 }
 
 .strong{
@@ -148,4 +176,17 @@ body{
 
 .sites{
     margin-bottom: 20px;
+}
+
+.employment{
+    margin-top: 20px;
+}
+
+.work-list{
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.justified-paragraph{
+    text-align: justify;
 }

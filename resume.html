@@ -1,86 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-    <link rel = "stylesheet" type = "text/css" href = "css/stylequeries.css">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    <title>Daiane's Resum&eacute;</title>
-</head>
-<body>
-    <header class="container">
-              <h1 class> Resum&eacute;</h1>
-            <div class="empty"></div>
-            <div class="empty"></div>
-            <div class="empty"></div>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="resume.html">Resum&eacute;</a></li>
-                </ul>
-            </nav>
-        </header>   
-    <div class="container details">
-      <div class="image">
-        <h2> Daiane A. da Silva </h2>
-     </div>
-     <div class="empty"></div>
-     <div class="intro left">
-    <h4>Email: daianeasilva26@gmail.com</br>
-    Phone: 919-672-3672</h4>
-    </div>
-    </div>
-    <section>
-    <main>
-        <div class="short-intro">
-        <p> I am very enthusiastic about working in a supportive, judgement-free, 
-            fun enviroment. </p>
-        </div>
-      <div class="employment">
-         <h2> Employment History</h2>
-            <p class="strong">Kate's Critter Care & Lucy's Pet Care</p>
-            <p class="year">2014-2019</p>
-            <p class="profession">Pet Sitter</p>
-            <p>Worked as a pet sitter for two companies and had about a 
-            100 clients.</p>
-            <p class="strong">Target</p>
-            <p class="year">2013-2014</p>
-            <p class="profession">Cashier</p>
-            <p>Performed cashier duties and customer service. </p>
-      </div>
-    <div class="education">
-      <h2>Education History</h2>
-      <p class="strong">Momentum Learning</p>
-      <p class="year">2019-2019</p>
-      <p> Software Developer</p>
-      <p class="strong">Faculdades Metropolitanas Unidas</p>
-      <p class="year">2002-2008</p>
-      <p>International Relations (incomplete)</p>
-    </div>
-    </main> 
-    </section>  
-    <footer class="pv4 ph3 tc">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/gridqueries.css">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+        <title>Daiane's Resum&eacute;</title>
+    </head>
+    <body>
+        <header class="flex-container bb bt center-div">
+                <div class="title">
+                    <h1> My Resum&eacute;</h1>
+                </div>
+                <!-- <div class="empty"></div>
+                <div class="empty"></div> -->
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="index.html">Home</a></li>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="projects.html">Projects</a></li>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="resume.html">Resum&eacute;</a></li>
+                    </ul>
+                </nav>
+        </header> 
+        <div class='resume'>  
+            <div class="container details center-div">
+                <div class="image">
+                    <h2> Daiane A. da Silva </h2>
+                </div>
+                <!-- <div class="intro left"> -->
+                    <p>Email: daianeasilva26@gmail.com</p>
 
-            <a class="link near-black hover-silver dib mh3 tc" href="https://github.com/DaianeS26" title="GitHub">
-                <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
-                <span class="f6 db">GitHub</span>
-            </a>
-    
-            <!-- <a class="link hover-silver near-black dib mh3 tc" href="http://stackoverflow.com" title="Stack Overflow">
-            <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.658 14.577v-4.27h1.423V16H1.23v-5.693H2.65v4.27h10.006zm-8.583-1.423h7.16V11.73h-7.16v1.424zm.173-3.235l6.987 1.465.3-1.38L4.55 8.54l-.302 1.38zm.906-3.365l6.47 3.02.602-1.295-6.47-3.02-.602 1.295zm1.81-3.19l5.478 4.57.906-1.078-5.477-4.57-.905 1.077zM10.502 0L9.338.863l4.27 5.735 1.164-.862L10.5 0z"/></svg>
-            <span class="f6 db">Stack Overflow</span>
-            </a> -->
-    
-            <a class="link hover-silver near-black dib mh3 tc" href="https://linkedin.com title="LinkedIn">
-                <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
-                <span class="f6 db">LinkedIn</span>
-            </a>
-    
-    </footer>
+                <!-- </div> -->
+            </div>
+            <main>
+                <section>
+                    <div class="short-intro">
+                         <p class='tab'> I am a hardworking, dedicated, flexible, driven, detail-oriented software developer who is passionate about learning and creating beautiful applications.</p>
+                    </div>
+                    <div class="employment">
+                        <h2 class='tc mb3'> Work History</h2>
+                            <p class="strong tc">Momentum Learning Inc</p>
+                            <p class="profession tc">Software Developer - <span class="year">May/2019 - August/2019</span></p>
+                            <ul class='work-list'>
+                                <li class='pa2'>Developing class projects with object-oriented programming to organize and modularize features.</li>
+                                <li class='pa2'>Programming full-stack web applications with Python and Django. </li>
+                                <li class='pa2'>Working with Git version control in a collaborative environment.</li>
+                                <li class='pa2'>Mentoring fellow students and reviewing their code in a way that leads them to greater understanding of programming concepts.</li>
+                                <li class='pa2'>Pair-programming in an agile environment to implement full stack applications.</li>
+                            </ul>
+                            <p class="strong tc">Kate's Critter Care & Lucy's Pet Care</p>
+                            <p class="profession tc">Pet Sitter - <span class="year">2014-2019</span></p>
+                            <p class="strong tc">Target</p>
+                            <p class="profession tc mb3">Cashier - <span class="year">2013-2014</span></p>   
+                    </div>
+                    <div class="education">
+                        <h2 class='tc mb3'>Education History</h2>
+                            <p class="strong tc">Momentum Learning</p>
+                            <p class='tc mb2'> Full-Stack Software Developer</p>
+                            <p class="tab">Dedicated 12-weeks specializing in highly focused, immersive training centered on Python/Django language fluency, 
+                            object-oriented programming, and project-based learning.</p>
+                            <p class="strong tc mt2">Faculdades Metropolitanas Unidas - Brazil</p>
+                            <p class='tc mb3'>International Relations</p>
+                    </div>
+                    <div class="skills">
+                            <h2 class='tc mb3'>Skills</h2>
+                            <ul class='work-list'>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li> Django </li>
+                                <li>Vue.js</li>
+                                <li> SQL</li>
+                                <li>HTML & CSS</li>
+                                <li>Bilingual:  Portuguese and English</li>
+                                <li> Dedicated</li>
+                                <li>Team player</li>
+                                <li>Considerate</li>
+                                <li>Energetic</li>
+                                <li> Passionate</li>
+                            </ul>
+                    </div>
+
+                </section>  
+            </main>
+        </div>
+     
+        <footer class="pv4 ph3 ph5-ns tc">
+            
+                <a class="link dim gray dib h2 w2 br-100 mr3 " href="https://www.linkedin.com/in/daiane-da-silva/" title="">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
+                </a>
         
+                <a class="link dim gray dib br-100 h2 w2 mr3" href="https://stackoverflow.com/users/12022313/daiane-silva" title="Stack Overflow">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.658 14.577v-4.27h1.423V16H1.23v-5.693H2.65v4.27h10.006zm-8.583-1.423h7.16V11.73h-7.16v1.424zm.173-3.235l6.987 1.465.3-1.38L4.55 8.54l-.302 1.38zm.906-3.365l6.47 3.02.602-1.295-6.47-3.02-.602 1.295zm1.81-3.19l5.478 4.57.906-1.078-5.477-4.57-.905 1.077zM10.502 0L9.338.863l4.27 5.735 1.164-.862L10.5 0z"/></svg>
+                </a>
+        
+                <a class="link dim gray dib br-100 h2 w2 mr3" href="https://github.com/DaianeS26" title="GitHub">
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+                </a> 
+        </footer> 
     </body>
-    </html>
+</html>

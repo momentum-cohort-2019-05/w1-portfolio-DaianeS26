@@ -6,103 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700&display=swap" rel="stylesheet">
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-    <link rel = "stylesheet" type = "text/css" href = "css/stylequeries.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/gridqueries.css">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <title>Daiane's Projects</title>
 </head>
 <body>
-    <header class="flex-container bb bt center-div">
-            <div class="title">
-                <h1> Daiane A. da Silva</h1>
-            </div>
-            <!-- <div class="empty"></div>
-            <div class="empty"></div> -->
-            <nav class="nav-bar">
-                <ul>
-                    <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="index.html">Home</a></li>
-                    <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="projects.html">Projects</a></li>
-                    <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="resume.html">Resum&eacute;</a></li>
-                </ul>
-            </nav>
-    </header>    
-    <main>
-        <h2 class='project-page'> My Projects</h2>
-        <div class="project container">
-            <h3 class="sites center-div"> Project Impact</h3>
-            <div class="image-project">
-                <img class='port-img' src="images/project-impact.png" alt="Project Impact Screenshot">
-            </div>
-            <div class="project-content">
-                <p>Project Impact was my final group project at Momentum. We created a platform where children aging out Foster Care System
-                could find and connect with people interested in mentoring them through this transition.
-                </p>
-                <p>
-                For this project, we used Django to handle all the data, security and authorizations. JavaScript and CSS grid as well as media queries to 
-                create a responsive website.
-                </p>
-            </div> 
-            
-            <div class="project-links center-div">
+        <header class="flex-container bb bt center-div">
+                <div class="title">
+                    <h1> Daiane da Silva</h1>
+                </div>
+                <!-- <div class="empty"></div>
+                <div class="empty"></div> -->
+                <nav class="nav-bar">
                     <ul>
-                        <li><a href="https://project-impact.herokuapp.com/">Live site</a></li>
-                        <li><a href="https://github.com/project-impact-2019/project-impact">Code on GitHub</a></li>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="index.html">Home</a></li>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="projects.html">Projects</a></li>
+                        <li><a class= "f6 f5-l link bg-animate black-80 hover-bg-light-gray dib pa3 ph4-l" href="resume.html">Resum&eacute;</a></li>
                     </ul>
-            </div>
-        </div>  
-
-        <div class="project container">
-            <h3 class="sites center-div"> Sample iTunes</h3>
-            <div class="image-project">
-                <img class="port-img" src="images/itunes.png" alt="Itunes Sample Screenshot">
-            </div>
-            <div class="project-content">
-                <p> This project used JavaScript to fetch data from the iTunes API and play a sample of the songs in the website.</p>
-                </div>
-            </div>
-            <div class="project-links center-div">
-                <ul>
-                    <li><a href="">Live site</a></li>
-                    <li><a href="https://github.com/momentum-cohort-2019-05/w7-itunes-search-DaianeS26">Code on GitHub</a></li>
-                </ul>
-                
-            </div>
-        </div>
-
-        <div class="project container">
-                <h3 class="sites center-div"> Calculator</h3>
-                <div class="image-project">
-                    <img class="port-img" src="images/calculator.png" alt="Itunes Sample Screenshot">
-                </div>
+                </nav>
+        </header>     
+    <main>
+        <h2 class='project-page'> Sample Projects</h2>
+        <div class='main-wrapper'>
+            <div class="project container div-1">
                 <div class="project-content">
-                    <p> This is a calculator we made manipulating the DOM using JavaScript event handlers.</p>
-                    </div>
+                    <h3 class="sites center-div"> Project Impact</h3>
+                    <p class='tab'>Project Impact was my final group project at Momentum. We created a platform where children aging out Foster Care System
+                    could find and connect with people interested in mentoring them through this transition.
+                    </p>
+                    <p class='tab'>
+                    For this project, we used Django to handle all the data, security and authorizations. JavaScript and CSS grid as well as media queries to 
+                    create a responsive website.
+                    </p>
+                </div> 
+            </div> 
+            <div class='wrapper1'>
+                <div class="image-project img-1">
+                        <img class='port-img' src="images/project-impact.png" alt="Project Impact Screenshot">
                 </div>
                 <div class="project-links center-div">
-                    <ul>
-                        <li><a href="">Live site</a></li>
-                        <li><a href="https://github.com/DaianeS26/js-pig-game">Code on GitHub</a></li>
-                    </ul>
-                    
+                        <ul>
+                            <li><a href="https://project-impact.herokuapp.com/">Live site</a></li>
+                            <li><a href="https://github.com/project-impact-2019/project-impact">Code on GitHub</a></li>
+                        </ul>
                 </div>
             </div>
-
-            <div class="project container">
-                    <h3 class="sites center-div"> Pig Game</h3>
-                    <div class="image-project">
-                        <img class="port-img" src="images/pig.png" alt="Itunes Sample Screenshot">
-                    </div>
+    
+            <div class="project container div-2">
                     <div class="project-content">
-                        <p> This is a classic Pig Game I made using JavaScript and DOM manipulation.</p>
+                        <h3 class="sites center-div"> Sample iTunes</h3>
+                        <p class='tab'> This is one of my favorite projects. We used fecth to get data from the iTunes api. 
+                        The music is display in the page and the user can play samples of the songs. We used JavaScript to manipulate the DOM, create new elements. 
+                        This project has a mix of CSS frameworks, as well as hard coded CSS. I used flexbox to get the items to be displayed in line and media queries to 
+                        change the number of items displayed per line according to the size of the screen.</p>
+                    </div>
+        
+            </div>
+            <div class="wrapper2">
+                    <div class="image-project img-2">
+                        <img class="port-img" src="images/itunes.png" alt="Itunes Sample Screenshot">
+                    </div>
+                    <div class="project-links center-div">
+                        <ul>
+                            <li><a href="">Live site</a></li>
+                            <li><a href="https://github.com/momentum-cohort-2019-05/w7-itunes-search-DaianeS26">Code on GitHub</a></li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="project container div-3"">
+                    <div class="project-content">
+                        <h3 class="sites center-div"> Calculator</h3>
+                        <p class='tab'> This is a calculator we made manipulating the DOM using JavaScript event handlers.</p>
+                    </div>
+            </div>
+            <div class="wrapper3">
+                        <div class="image-project img-3">
+                                <img class="port-img" src="images/calculator.png" alt="Itunes Sample Screenshot">
                         </div>
+                        <div class="project-links center-div">
+                            <ul>
+                                <li><a href="">Live site</a></li>
+                                <li><a href="https://github.com/DaianeS26/js-pig-game">Code on GitHub</a></li>
+                            </ul>
+                        </div>
+            </div>
+
+                <div class="project container div-4"">
+                        <div class="project-content">
+                            <h3 class="sites center-div"> Pig Game</h3>
+                            <p class='tab'> This is a classic Pig Game I made using JavaScript and DOM manipulation.</p>
+                        </div>
+                </div>
+                <div class="wrapper4">
+                    <div class="image-project img-4">
+                            <img class="port-img" src="images/pig.png" alt="Itunes Sample Screenshot">
                     </div>
                     <div class="project-links center-div">
                         <ul>
                             <li><a href="#">Live site</a></li>
                             <li><a href="https://github.com/DaianeS26/js-pig-game">Code on GitHub</a></li>
-                        </ul>
-                        
+                        </ul>  
                     </div>
                 </div>
+                    
+        </div>
     </main>
     <footer class="pv4 ph3 ph5-ns tc">
         
