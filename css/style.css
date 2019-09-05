@@ -58,6 +58,11 @@ body{
     margin-top: 20px;
 }
 
+.content{
+    margin: 10px 50px;
+}
+
+
 
 .quick-intro{
     border-bottom: 1px gray solid;
@@ -104,6 +109,8 @@ body{
 
 .project-content{
     text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .project-links ul li{
@@ -138,9 +145,6 @@ body{
 }
 
 
-
-
-
 /* Resume */
 
 .short-intro, .employment, .education{
@@ -157,7 +161,7 @@ body{
 }
 
 .resume{
-    margin-top: em;
+    margin-top: 2em;
     background-color: #fff;
     border: 1px #f7eff7 solid;
     border-radius: 20px;
